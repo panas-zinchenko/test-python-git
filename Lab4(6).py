@@ -31,3 +31,22 @@ else:
     print(0)
 print("--------------------------------------------------------------------")
 
+n = int(input("n = "))
+s = []
+sumD = 0
+kstD = 0
+kst0 = 0
+for i in range(n):
+    z = float(input("s = "))
+    s.append(z)
+print(s)
+for elem in s:
+    if elem > 0:
+        sumD += elem
+        kstD += 1
+    if elem == 0:
+        kst0 += 1
+kstV = n - kst0 - kstD
+print(sumD)
+print(kstV)
+print(kst0)

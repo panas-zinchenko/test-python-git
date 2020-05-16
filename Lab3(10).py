@@ -11,8 +11,6 @@ while y <= m:
     l.append(randint(a, b))
     y += 1
 
-
 l.append(0)
-print(l)
-min(l)
+
 print("№ найменшого = ", l.index(min(l)))
